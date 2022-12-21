@@ -1,5 +1,6 @@
 command! -bang -nargs=* Agada execute "RgRaw -g \"**/*.ad[sab]\" \"\""
 command! -bang -nargs=* Agbazel execute "RgRaw -g \"**/*.bazel\" \"\""
 command! -bang -nargs=* Aggpr execute "RgRaw -g \"**/*.gpr\" \"\""
+command! -bang -nargs=* Agjson execute "RgRaw -g \"**/*.json\" \"\""
 command! -bang -nargs=* Agpy execute "RgRaw -g \"**/*.py\" \"\""
 command! -bang -nargs=* Aglua execute "RgRaw -g \"**/*.lua\" \"\""
